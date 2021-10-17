@@ -16,6 +16,10 @@ h2 {
   margin: 0;
   padding: 0.3rem;
   background-color: #FB85B3;
+  border-radius: 1rem;
+}
+h3 {
+  color: white;
 }
 img {
   border-radius: 1rem;
@@ -47,9 +51,8 @@ header p {
 
 
 nav {
-  border-bottom:1px solid #a61f11;
-  border-top:1px solid #da0090;
   background-color: #FBC3CC;
+  border-radius: 1rem;
 }
 nav ul {
   list-style-type: none;
@@ -76,6 +79,7 @@ nav a:hover {
 section {
   height: 100%;
   width: 100%;
+  margin-bottom: 0.3rem;
 }
 
 
@@ -144,15 +148,13 @@ section {
   text-align: center;
 }
 #art iframe {
-  margin: 1rem 1rem;
+  margin: 1rem 0.75rem;
   border-radius: 1rem;
 }
 
 
 footer {
   text-align: center;
-  border-top: 1px solid #a61f11;
-  margin-top: 1rem;
 }
 footer p {
   font-weight: bold;
@@ -197,6 +199,3 @@ footer a:hover {
   }
 }
 
-h3 {
-  color: white;
-}
