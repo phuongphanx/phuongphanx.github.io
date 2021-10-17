@@ -181,3 +181,21 @@ footer a:hover {
   color: #FBC3CC;
   border-radius: 1rem;
 }
+
+
+/* Mobile Phone */
+@media all and (max-width: 800px) {
+  .container {
+      width: 100%;
+      min-width: 300px;
+  }
+
+  .left-nav {
+      margin: auto 0;
+      flex-basis: 100%;
+
+  }
+  .right-nav {
+      display: none;
+  }
+}
