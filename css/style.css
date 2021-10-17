@@ -148,6 +148,7 @@ section {
 }
 #art iframe {
   margin: 1rem 1rem;
+  border-radius: 1rem;
 }
 
 
