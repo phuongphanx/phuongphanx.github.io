@@ -5,21 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phuong Phan</title>
+    <script src="https://kit.fontawesome.com/db6b6ec4d0.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Kavivanar|Open+Sans" rel="stylesheet"> 
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper">
         <header>
-            <div class="leftheader"><a href="/"><img src=""</a></div>
-        </header>
+				<h1>Phuong Phan's Portfolio</h1>
+				<p>Favourite quote: "Your excuses just gave someone else an opportunity"</p>
+		</header>
+        
         <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Software</a></li>
-                <li><a href="#">Art</a></li>
-            </ul>
-        </nav>
+			<ul>
+				<li><a href="#aboutme">About Me</a></li>
+				<li><a href="#projects">Projects</a></li>
+                <li><a href="#art">Art</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+
+        <section id="aboutme">
+            <h2>About Me</h2>
+
+            <div id="aboutme-container">
+                <div class="aboutme-tile">
+                        <img src="img/aspen-and-me.jpg" alt="Aspen and Me" class="aboutme-tile-image">
+                    </div>
+
+                <div class="aboutme-tile">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d65344016.09713124!2d169.05300908367553!3d-1.5899484078429138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x6d0d47fb5a9ce6fb%3A0x500ef6143a29917!2sAuckland%2C%20New%20Zealand!3m2!1d-36.8508827!2d174.7644881!4m5!1s0x80d9530fad921e4b%3A0xd3a21fdfd15df79!2sSan%20Diego%2C%20CA!3m2!1d32.715738!2d-117.1610838!5e0!3m2!1sen!2sus!4v1634417251653!5m2!1sen!2sus"  allowfullscreen="" loading="lazy" class="aboutme-tile-image"></iframe>
+                </div>
+            </div>
+
+            <p>Kia Ora! My name is Phuong and I'm a kiwi living in the U.S! I'm a software developer aswell as small business owner :) I have a golden retriever (Aspen) and I like to play Call Of Duty (Mobile). Here is my digital portfolio that I've coded from scratch, I hope you enjoy it :)</p>
+        </section>
+
+        <section id="projects">
+                <h2>Projects</h2>
+                <div id="projects-container">
+                    <a href="https://phuongphanx.github.io/final-fox-game-master" target="_blank" class="project-tile">
+                        <div class="project-tile-image">
+                            <img src="img/fox-game.jpg" alt="Fox Game">
+                        </div>
+                        <h3>Fox Game</h3>
+                    </a>
+                    <a href="https://phuongphanx.github.io/blog-page" target="_blank" class="project-tile">
+                        <div class="project-tile-image">
+                            <img src="img/blog-page.jpg" alt="Blog Page">
+                        </div>
+                        <h3>Blog Page</h3>
+                    </a>
+                </div>
+        </section>
+
+        <section id="art">
+            <h2>Art</h2>
+
+            <p>Take a peak into my small business! I teach paint & sip classes across San Diego :) Perhaps, you'd like to come to one? Visit our website <a href="https://www.winenwonders.com" target="_blank">winenwonders.com</a> for more info.</p>
+
+            <iframe width="250" height="450" src="https://www.youtube.com/embed/W9-fN_hASnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            <img src="img/class-600x450.jpg" alt="painting class">
+
+        </section>
+
+        <footer id="contact">
+			<h2>Contact</h2>
+			<ul>
+				<li><a href="mailto:phuongsandiego@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a></li>
+                <li><a href="https://github.com/phuongphanx" target="_blank"><i class="fab fa-github-square"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/phuongphanx" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+				<li><a href="https://www.instagram.com/winenwonders" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+			</ul>
+		</footer>
+
     </div>
 </body>
 </html>
