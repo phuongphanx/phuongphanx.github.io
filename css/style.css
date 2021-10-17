@@ -90,7 +90,6 @@ section {
   text-decoration: none;
   width: 250px;
   margin: 15px;
-  background-color: white;
   border-radius: 15px;
   color: var(--text-color);
   background-color: #F7FDFD;
@@ -120,11 +119,9 @@ section {
   width: 250px;
   padding: 15px;
   margin: 15px;
-  background-color: white;
+  background-color: #da0090;
   border-radius: 15px;
-  color: var(--text-color);
-  box-shadow: 5px 5px 8px var(--text-color);
-  background-color: #F7FDFD;
+  box-shadow: 5px 5px 8px;
 }
 .project-tile:hover {
   transform: scale(1.1);
@@ -198,4 +195,8 @@ footer a:hover {
   .right-nav {
       display: none;
   }
+}
+
+h3 {
+  color: white;
 }
