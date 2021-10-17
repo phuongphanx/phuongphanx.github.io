@@ -146,8 +146,8 @@ section {
 #art {
   text-align: center;
 }
-#art img {
-  margin: 0 1rem;
+#art iframe {
+  margin: 1rem 1rem;
 }
 
 
